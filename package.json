@@ -1,0 +1,24 @@
+{
+  "name": "fetchxx-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool",
+  "main": "./src/index.js",
+  "bin": {
+    "fetchxx": "./bin/fetchxx.js"
+  },
+  "scripts": {
+    "start": "node ./bin/fetchxx.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Kai <kai@thekaiway.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "turndown": "^7.2.0"
+  }
+}
